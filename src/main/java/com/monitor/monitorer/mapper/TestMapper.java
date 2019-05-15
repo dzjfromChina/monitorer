@@ -2,9 +2,6 @@ package com.monitor.monitorer.mapper;
 
 import com.monitor.monitorer.entity.Test;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import org.springframework.stereotype.Repository;
-
-import java.util.List;
 
 /**
  * <p>

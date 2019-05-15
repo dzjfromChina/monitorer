@@ -1,6 +1,6 @@
 package com.monitor.monitorer.entity;
 
-    import java.io.Serializable;
+    import com.monitor.monitorer.entity.base.BaseBean;
     import lombok.Data;
     import lombok.EqualsAndHashCode;
     import lombok.experimental.Accessors;
@@ -14,9 +14,9 @@ package com.monitor.monitorer.entity;
 * @since 2019-05-15
 */
     @Data
-        @EqualsAndHashCode(callSuper = false)
+        @EqualsAndHashCode(callSuper = true)
     @Accessors(chain = true)
-    public class Test implements Serializable {
+    public class Test extends BaseBean {
 
     private static final long serialVersionUID = 1L;
 

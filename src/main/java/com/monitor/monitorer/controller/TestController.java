@@ -33,7 +33,7 @@ public class TestController {
         log.info("start");
         int count = iTestService.count();
         List<Test> list = iTestService.list();
-
+        Test byId = iTestService.getById(1);
         log.info(list.get(0).getName());
 
         log.info("end");
